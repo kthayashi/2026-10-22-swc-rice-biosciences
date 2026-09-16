@@ -348,6 +348,7 @@ address.
             Please email
             {% if page.email %}
             {% for email in page.email %}
+            <!--
             {% if forloop.last and page.email.size > 1 %}
             or
             {% else %}
@@ -355,6 +356,7 @@ address.
             ,
             {% endunless %}
             {% endif %}
+            -->
             <a href='mailto:{{email}}'>{{email}}</a>
             {% endfor %}
             {% else %}
