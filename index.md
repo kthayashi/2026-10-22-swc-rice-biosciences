@@ -374,6 +374,15 @@ address.
             </p>    
         </dd>
     </div>
+    
+    <div class="row">
+        <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Who can attend?</dt>
+        <dd class="col py-2 px-3 mx-0 mb-0">
+            <p id="who-can-attend">
+            Attendance is limited to members of the Rice BioSciences community.
+            </p>
+        </dd>
+    </div>
 
     <!-- <div class="row">
         <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Accessibility</dt>
@@ -400,11 +409,11 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
-{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    Attendance is limited to members of the Rice BioSciences community.
+    This workshop is open to ....
 </p>
+{% endcomment %}
 
 
 {% comment %}
