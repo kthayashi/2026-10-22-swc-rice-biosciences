@@ -54,7 +54,7 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Software Carpentry @ Rice BioSciences (Fall 2026)"
+title: "Software Carpentry @ Rice BioSciences"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
